@@ -53,9 +53,16 @@ img {
     padding:2rem 0 2rem;
 }
 
+.about h2 {
+    text-align: center;
+}
+
 
 /* contact-me */
 
 .contact-me{
     padding:2rem 0 2rem;
 }
+
+/* FOOTER */
+
