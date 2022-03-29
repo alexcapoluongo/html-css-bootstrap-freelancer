@@ -1,48 +1,61 @@
-header{
+header {
     height:80px;
     background-color:#303D4E;
     line-height: 80px;
     color:white;
 }
 
-img{
+img {
     width:100%;
 }
 
 /* menu */
 
-.list-menu-wrap ul{
+.list-menu-wrap ul {
     list-style: none;
     display:flex;
 }
 
-.list-menu-wrap ul li{
+.list-menu-wrap ul li {
     padding-left:1rem;
 }
 
-.list-menu-wrap ul li a{
+.list-menu-wrap ul li a {
     text-decoration: none;
     color:white;
 }
 
 /* banner */
 
-.banner{
+.banner {
     background-color: #58B99D;
     padding:1rem;
 }
 
 /* portfolio */
 
-.portfolio{
+.portfolio {
     margin-top:2rem;
 }
 
-.portfolio h2{
+.portfolio h2 {
     text-align: center;
 }
 
-.portfolio img{
+.portfolio img {
     padding:1rem;
 }
 
+/* about */
+
+.about{
+    background-color: #58B99D;
+    padding:2rem 0 2rem;
+}
+
+
+/* contact-me */
+
+.contact-me{
+    padding:2rem 0 2rem;
+}
