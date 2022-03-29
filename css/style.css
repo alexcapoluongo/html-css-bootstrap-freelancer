@@ -5,10 +5,44 @@ header{
     color:white;
 }
 
-.banner{
-    background-color: #58B99D;
+img{
+    width:100%;
 }
 
-.content-wrap{
-    
+/* menu */
+
+.list-menu-wrap ul{
+    list-style: none;
+    display:flex;
 }
+
+.list-menu-wrap ul li{
+    padding-left:1rem;
+}
+
+.list-menu-wrap ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+/* banner */
+
+.banner{
+    background-color: #58B99D;
+    padding:1rem;
+}
+
+/* portfolio */
+
+.portfolio{
+    margin-top:2rem;
+}
+
+.portfolio h2{
+    text-align: center;
+}
+
+.portfolio img{
+    padding:1rem;
+}
+
