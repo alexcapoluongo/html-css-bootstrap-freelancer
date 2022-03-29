@@ -66,3 +66,22 @@ img {
 
 /* FOOTER */
 
+footer{
+    background-color: #3F536B;
+}
+
+.content-footer{
+    text-align: center;
+    color:white;
+    padding:1rem;
+}
+
+.copyright{
+    background-color: #303D4E;
+}
+
+.copyright-wrap{
+    text-align: center;
+    color:white;
+    padding:1rem;
+}
