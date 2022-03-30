@@ -23,6 +23,24 @@ h1, h2, p {
     color:white;
 }
 
+/* button */
+.btn_download {
+    background-color: #58B99D;
+    border:1px solid white;
+}
+
+.btn_download:hover {
+    background-color: white;
+    color:black;
+    border:1px solid white;
+}
+
+.btn_send{
+    background-color: #58B99D;
+    border:1px solid #58B99D;
+}
+
+/* starbar */
 .star-bar {
     text-align: center;
     padding-bottom:1em; 
@@ -73,6 +91,10 @@ h1, h2, p {
     color:white;
 }
 
+.list-menu-wrap ul li a:hover {
+    color:#58B99D;
+}
+
 /* banner */
 
 .banner {
@@ -91,6 +113,7 @@ h1, h2, p {
 
 .portfolio {
     margin-top:2rem;
+    margin-bottom: 2rem;
 }
 
 .portfolio h2 {
@@ -100,6 +123,7 @@ h1, h2, p {
 
 .portfolio img {
     padding:1rem;
+    border-radius: 30px;;
 }
 
 /* about */
@@ -123,6 +147,16 @@ h1, h2, p {
 .contact-me h2 {
     color:black;
     text-align: center;
+}
+
+.contact-me input[type=text]{
+    border:none;
+    border-radius:0;
+    border-bottom:1px solid black;   
+}
+
+.contact-me .message input[type=text]{
+    padding-bottom:150px;
 }
 
 /* FOOTER */
