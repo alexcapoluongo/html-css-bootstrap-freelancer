@@ -151,7 +151,8 @@ h1, h2, p {
 }
 
 .img_port{
-    padding:1em;
+    border-radius: 30px;
+    margin-left:20px;
     position:relative;
     overflow: hidden;
 }
