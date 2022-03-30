@@ -9,6 +9,10 @@ img {
     width:100%;
 }
 
+.star-bar{
+    text-align: center;
+}
+
 /* menu */
 
 .list-menu-wrap ul {
