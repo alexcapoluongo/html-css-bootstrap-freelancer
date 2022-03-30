@@ -23,6 +23,8 @@ h1, h2, p {
     color:white;
 }
 
+
+
 /* button */
 .btn_download {
     background-color: #58B99D;
@@ -144,9 +146,30 @@ h1, h2, p {
     color:black;
 }
 
-.portfolio img {
-    padding:1rem;
-    border-radius: 30px;;
+.img_port img {
+    border-radius: 30px;
+}
+
+.img_port{
+    padding:1em;
+    position:relative;
+    overflow: hidden;
+}
+
+/* overlay */
+
+.overlay{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.img_port:hover .overlay{
+    display:inline-block;
 }
 
 /* about */
