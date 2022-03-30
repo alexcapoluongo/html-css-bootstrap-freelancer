@@ -35,9 +35,32 @@ h1, h2, p {
     border:1px solid white;
 }
 
-.btn_send{
+.btn_send {
     background-color: #58B99D;
     border:1px solid #58B99D;
+}
+
+.btn-footer_wrapper {
+    line-height:1em;
+    vertical-align:middle;
+}
+
+
+
+.btn_footer_wrapper i {
+   color:white;
+   text-decoration: none;
+   text-align: center;
+}
+
+.btn_foot i {
+    display: inline-block;
+    border:1px solid white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
 }
 
 /* starbar */
@@ -165,6 +188,15 @@ footer {
     background-color: #3F536B;
 }
 
+footer h3 {
+    font-size: 1.2em;
+}
+
+footer p {
+    font-size:.8em;
+}
+
+
 .content-footer {
     text-align: center;
     color:white;
@@ -179,8 +211,13 @@ footer {
     text-align: center;
     color:white;
     padding:1rem;
+    font-size: .8em;
 }
 
+.green_text a {
+    color:#58B99D;
+    text-decoration:none;
+}
 /* mediaquery */
 
 @media screen and (max-width: 375px) {
